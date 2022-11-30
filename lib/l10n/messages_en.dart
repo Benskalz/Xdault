@@ -66,7 +66,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "enterAddress" : MessageLookupByLibrary.simpleMessage("Enter Address"),
     "enterAmount" : MessageLookupByLibrary.simpleMessage("Enter Amount"),
     "exampleCardFrom" : MessageLookupByLibrary.simpleMessage("from someone"),
-    "exampleCardIntro" : MessageLookupByLibrary.simpleMessage("Welcome to Natrium. Once you receive NANO, transactions will show up like this:"),
+    "exampleCardIntro" : MessageLookupByLibrary.simpleMessage("welcome to Xdault. Once you receive NANO, transactions will show up like this:"),
     "exampleCardLittle" : MessageLookupByLibrary.simpleMessage("A little"),
     "exampleCardLot" : MessageLookupByLibrary.simpleMessage("A lot of"),
     "exampleCardTo" : MessageLookupByLibrary.simpleMessage("to someone"),
@@ -183,7 +183,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "unlockPin" : MessageLookupByLibrary.simpleMessage("Enter PIN to Unlock Natrium"),
     "viewDetails" : MessageLookupByLibrary.simpleMessage("View Details"),
     "warning" : MessageLookupByLibrary.simpleMessage("Warning"),
-    "welcomeText" : MessageLookupByLibrary.simpleMessage("Welcome to Natrium. To begin, you may create a new wallet or import an existing one."),
+    "welcomeText" : MessageLookupByLibrary.simpleMessage("welcome to Xdault. To begin, you may create a new wallet or import an existing one."),
     "xMinute" : MessageLookupByLibrary.simpleMessage("After %1 minute"),
     "xMinutes" : MessageLookupByLibrary.simpleMessage("After %1 minutes"),
     "yes" : MessageLookupByLibrary.simpleMessage("Yes")

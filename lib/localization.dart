@@ -293,7 +293,7 @@ class AppLocalization {
 
   String get welcomeText {
     return Intl.message(
-        "Welcome to Natrium. To begin, you may create a new wallet or import an existing one.",
+        "welcome to Xdault. To begin, you may create a new wallet or import an existing one.",
         desc: 'intro_welcome_title',
         name: 'welcomeText');
   }
@@ -874,7 +874,7 @@ class AppLocalization {
 
   String get exampleCardIntro {
     return Intl.message(
-        "Welcome to Natrium. Once you receive NANO, transactions will show up like this:",
+        "welcome to Xdault. Once you receive NANO, transactions will show up like this:",
         desc: 'example_card_intro',
         name: 'exampleCardIntro');
   }
