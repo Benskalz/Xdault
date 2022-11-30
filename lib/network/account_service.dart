@@ -40,8 +40,8 @@ import 'package:natrium_wallet_flutter/network/model/response/process_response.d
 import 'package:natrium_wallet_flutter/bus/events.dart';
 
 // Server Connection String
-const String _SERVER_ADDRESS = "wss://testapp.natrium.io";
-const String _SERVER_ADDRESS_HTTP = "https://testapp.natrium.io/api";
+const String _SERVER_ADDRESS = "ws://10.0.2.2:3003";
+const String _SERVER_ADDRESS_HTTP = "http://10.0.2.2:3003/api";
 const String _SERVER_ADDRESS_ALERTS = "https://testapp.natrium.io/alerts";
 
 Map decodeJson(dynamic src) {
@@ -376,7 +376,7 @@ class AccountService {
 
   Future<PendingResponse> getPending(String account, int count,
       {String threshold, bool includeActive = false}) async {
-    threshold = threshold ?? BigInt.from(10).pow(24).toString();
+    threshold = threshold ?? BigInt.from(10).pow(18).toString();
     PendingRequest request = PendingRequest(
         account: account,
         count: count,
