@@ -91,7 +91,7 @@ class StateContainerState extends State<StateContainer> {
   final Logger log = sl.get<Logger>();
 
   // Minimum receive = 0.000001 NANO
-  String receiveThreshold = BigInt.from(10).pow(24).toString();
+  String receiveThreshold = BigInt.from(10).pow(18).toString();
 
   AppWallet wallet;
   String currencyLocale;

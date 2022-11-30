@@ -345,9 +345,11 @@ class _SendSheetState extends State<SendSheet> {
                                                             locale: StateContainer
                                                                     .of(context)
                                                                 .currencyLocale)
-                                                    : "Ӿ" + StateContainer.of(context)
-                                                        .wallet
-                                                        .getAccountBalanceDisplay(),
+                                                    : "Ӿ" +
+                                                        StateContainer.of(
+                                                                context)
+                                                            .wallet
+                                                            .getAccountBalanceDisplay(),
                                                 style: TextStyle(
                                                   color:
                                                       StateContainer.of(context)
@@ -646,7 +648,7 @@ class _SendSheetState extends State<SendSheet> {
                             BigInt amountBigInt =
                                 BigInt.tryParse(address.amount);
                             if (amountBigInt != null &&
-                                amountBigInt < BigInt.from(10).pow(24)) {
+                                amountBigInt < BigInt.from(10).pow(18)) {
                               hasError = true;
                               UIUtil.showSnackbar(
                                   AppLocalization.of(context)

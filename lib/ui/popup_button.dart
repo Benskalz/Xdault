@@ -88,7 +88,7 @@ class _AppPopupButtonState extends State<AppPopupButton> {
         BigInt amountBigInt =
             address.amount != null ? BigInt.tryParse(address.amount) : null;
         bool sufficientBalance = false;
-        if (amountBigInt != null && amountBigInt < BigInt.from(10).pow(24)) {
+        if (amountBigInt != null && amountBigInt < BigInt.from(10).pow(18)) {
           UIUtil.showSnackbar(
               AppLocalization.of(context)
                   .minimumSend
