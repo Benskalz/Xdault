@@ -532,7 +532,7 @@ class _AppHomePageState extends State<AppHomePage>
       if (contact.address ==
           _historyListMap[StateContainer.of(context).wallet.address][localIndex]
               .account
-              .replaceAll("xrb_", "nano_")) {
+              .replaceAll("xrb_", "xdg_")) {
         displayName = contact.name;
       }
     });
@@ -730,7 +730,7 @@ class _AppHomePageState extends State<AppHomePage>
       if (address.amount != null) {
         BigInt amountBigInt = BigInt.tryParse(address.amount);
         // Require minimum 1 rai to send, and make sure sufficient balance
-        if (amountBigInt != null && amountBigInt >= BigInt.from(10).pow(24)) {
+        if (amountBigInt != null && amountBigInt >= BigInt.from(10).pow(18)) {
           if (StateContainer.of(context).wallet.accountBalance > amountBigInt) {
             sufficientBalance = true;
           }
@@ -1132,7 +1132,7 @@ class _AppHomePageState extends State<AppHomePage>
                                   text: '',
                                   children: [
                                     TextSpan(
-                                      text: "Ӿ" + item.getFormattedAmount(),
+                                      text: "XDG" + item.getFormattedAmount(),
                                       style:
                                           AppStyles.textStyleTransactionAmount(
                                         context,
@@ -1927,7 +1927,7 @@ class _AppHomePageState extends State<AppHomePage>
                                 children: [
                                   // Main balance text
                                   TextSpan(
-                                    text: "Ӿ" +
+                                    text: "XDG" +
                                         StateContainer.of(context)
                                             .wallet
                                             .getAccountBalanceDisplay(),

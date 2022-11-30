@@ -86,7 +86,8 @@ class _SendConfirmSheetState extends State<SendConfirmSheet> {
     super.initState();
     _registerBus();
     this.animationOpen = false;
-    this.isMantaTransaction = widget.manta != null && widget.paymentRequest != null;
+    this.isMantaTransaction =
+        widget.manta != null && widget.paymentRequest != null;
     // Derive amount from raw amount
     if (NumberUtil.getRawAsUsableString(widget.amountRaw).replaceAll(",", "") ==
         NumberUtil.getRawAsUsableDecimal(widget.amountRaw).toString()) {
@@ -98,8 +99,8 @@ class _SendConfirmSheetState extends State<SendConfirmSheet> {
               .toStringAsFixed(6) +
           "~";
     }
-    // Ensure nano_ prefix on destination
-    destinationAltered = widget.destination.replaceAll("xrb_", "nano_");
+    // Ensure xdg_ prefix on destination
+    destinationAltered = widget.destination.replaceAll("xrb_", "xdg_");
   }
 
   @override
@@ -171,7 +172,7 @@ class _SendConfirmSheetState extends State<SendConfirmSheet> {
                         text: '',
                         children: [
                           TextSpan(
-                            text: "Ӿ$amount",
+                            text: "XDG$amount",
                             style: TextStyle(
                               color:
                                   StateContainer.of(context).curTheme.primary,
@@ -185,8 +186,10 @@ class _SendConfirmSheetState extends State<SendConfirmSheet> {
                                 ? " (${widget.localCurrency})"
                                 : "",
                             style: TextStyle(
-                              color:
-                                  StateContainer.of(context).curTheme.primary.withOpacity(0.75),
+                              color: StateContainer.of(context)
+                                  .curTheme
+                                  .primary
+                                  .withOpacity(0.75),
                               fontSize: 16.0,
                               fontWeight: FontWeight.w700,
                               fontFamily: 'NunitoSans',
@@ -310,31 +313,32 @@ class _SendConfirmSheetState extends State<SendConfirmSheet> {
                               AppLocalization.of(context).confirm, context),
                           Dimens.BUTTON_TOP_DIMENS, onPressed: () async {
                         // Authenticate
-                        AuthenticationMethod authMethod = await sl.get<SharedPrefsUtil>().getAuthMethod();
-                        bool hasBiometrics = await sl.get<BiometricUtil>().hasBiometrics();
+                        AuthenticationMethod authMethod =
+                            await sl.get<SharedPrefsUtil>().getAuthMethod();
+                        bool hasBiometrics =
+                            await sl.get<BiometricUtil>().hasBiometrics();
                         if (authMethod.method == AuthMethod.BIOMETRICS &&
                             hasBiometrics) {
-                              try {
-                                bool authenticated = await sl
-                                                  .get<BiometricUtil>()
-                                                  .authenticateWithBiometrics(
-                                                      context,
-                                                      AppLocalization.of(context)
-                                                          .sendAmountConfirm
-                                                          .replaceAll("%1", amount));
-                                if (authenticated) {
-                                  sl.get<HapticUtil>().fingerprintSucess();
-                                  EventTaxiImpl.singleton()
-                                            .fire(AuthenticatedEvent(AUTH_EVENT_TYPE.SEND));   
-                                }
-                              } catch (e) {
-                                await authenticateWithPin();
-                              }
-                            } else {
-                              await authenticateWithPin();
+                          try {
+                            bool authenticated = await sl
+                                .get<BiometricUtil>()
+                                .authenticateWithBiometrics(
+                                    context,
+                                    AppLocalization.of(context)
+                                        .sendAmountConfirm
+                                        .replaceAll("%1", amount));
+                            if (authenticated) {
+                              sl.get<HapticUtil>().fingerprintSucess();
+                              EventTaxiImpl.singleton().fire(
+                                  AuthenticatedEvent(AUTH_EVENT_TYPE.SEND));
                             }
+                          } catch (e) {
+                            await authenticateWithPin();
                           }
-                      )
+                        } else {
+                          await authenticateWithPin();
+                        }
+                      })
                     ],
                   ),
                   // A row for CANCEL Button
@@ -362,28 +366,32 @@ class _SendConfirmSheetState extends State<SendConfirmSheet> {
     try {
       _showSendingAnimation(context);
       ProcessResponse resp = await sl.get<AccountService>().requestSend(
-        StateContainer.of(context).wallet.representative,
-        StateContainer.of(context).wallet.frontier,
-        widget.amountRaw,
-        destinationAltered,
-        StateContainer.of(context).wallet.address,
-        NanoUtil.seedToPrivate(await StateContainer.of(context).getSeed(), StateContainer.of(context).selectedAccount.index),
-        max: widget.maxSend
-      );
+          StateContainer.of(context).wallet.representative,
+          StateContainer.of(context).wallet.frontier,
+          widget.amountRaw,
+          destinationAltered,
+          StateContainer.of(context).wallet.address,
+          NanoUtil.seedToPrivate(await StateContainer.of(context).getSeed(),
+              StateContainer.of(context).selectedAccount.index),
+          max: widget.maxSend);
       if (widget.manta != null) {
-        widget.manta.sendPayment(
-            transactionHash: resp.hash, cryptoCurrency: "NANO");        
+        widget.manta
+            .sendPayment(transactionHash: resp.hash, cryptoCurrency: "NANO");
       }
       StateContainer.of(context).wallet.frontier = resp.hash;
-      StateContainer.of(context).wallet.accountBalance += BigInt.parse(widget.amountRaw);
+      StateContainer.of(context).wallet.accountBalance +=
+          BigInt.parse(widget.amountRaw);
       // Show complete
-      Contact contact = await sl.get<DBHelper>().getContactWithAddress(widget.destination);
+      Contact contact =
+          await sl.get<DBHelper>().getContactWithAddress(widget.destination);
       String contactName = contact == null ? null : contact.name;
       Navigator.of(context).popUntil(RouteUtils.withNameLike('/home'));
       StateContainer.of(context).requestUpdate();
       if (widget.natriconNonce != null) {
         setState(() {
-          StateContainer.of(context).updateNatriconNonce(StateContainer.of(context).selectedAccount.address, widget.natriconNonce);
+          StateContainer.of(context).updateNatriconNonce(
+              StateContainer.of(context).selectedAccount.address,
+              widget.natriconNonce);
         });
       }
       Sheets.showAppHeightNineSheet(
@@ -410,20 +418,19 @@ class _SendConfirmSheetState extends State<SendConfirmSheet> {
   Future<void> authenticateWithPin() async {
     // PIN Authentication
     String expectedPin = await sl.get<Vault>().getPin();
-    bool auth = await Navigator.of(context).push(MaterialPageRoute(
-          builder: (BuildContext context) {
-        return new PinScreen(
-          PinOverlayType.ENTER_PIN,
-          expectedPin: expectedPin,
-          description: AppLocalization.of(context)
-              .sendAmountConfirmPin
-              .replaceAll("%1", amount),
-        );
-      }));
+    bool auth = await Navigator.of(context)
+        .push(MaterialPageRoute(builder: (BuildContext context) {
+      return new PinScreen(
+        PinOverlayType.ENTER_PIN,
+        expectedPin: expectedPin,
+        description: AppLocalization.of(context)
+            .sendAmountConfirmPin
+            .replaceAll("%1", amount),
+      );
+    }));
     if (auth != null && auth) {
       await Future.delayed(Duration(milliseconds: 200));
-       EventTaxiImpl.singleton()
-          .fire(AuthenticatedEvent(AUTH_EVENT_TYPE.SEND));    
+      EventTaxiImpl.singleton().fire(AuthenticatedEvent(AUTH_EVENT_TYPE.SEND));
     }
   }
 }

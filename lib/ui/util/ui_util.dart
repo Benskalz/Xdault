@@ -12,6 +12,7 @@ import 'package:natrium_wallet_flutter/bus/events.dart';
 import 'package:natrium_wallet_flutter/ui/util/exceptions.dart';
 
 enum ThreeLineAddressTextType { PRIMARY60, PRIMARY, SUCCESS, SUCCESS_FULL }
+
 enum OneLineAddressTextType { PRIMARY60, PRIMARY, SUCCESS }
 
 class UIUtil {
@@ -457,6 +458,7 @@ class UIUtil {
 
   static String getNatriconURL(String address, String nonce) {
     String adjustedNonce = nonce == null || nonce == "" ? "" : "&nonce=$nonce";
+    address = address.replaceAll('xdg_', 'nano_');
     return "https://natricon.com/api/v1/nano?svc=natrium&outline=true&outlineColor=white&address=$address$adjustedNonce";
   }
 }
