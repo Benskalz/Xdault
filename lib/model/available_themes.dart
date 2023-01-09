@@ -42,7 +42,7 @@ class ThemeSetting extends SettingSelectionItem {
         return TitaniumTheme();
       case ThemeOptions.NATRIUM:
       default:
-        return NatriumTheme();
+        return IndiumTheme();
     }
   }
 

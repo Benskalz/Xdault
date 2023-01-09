@@ -1132,7 +1132,7 @@ class _AppHomePageState extends State<AppHomePage>
                                   text: '',
                                   children: [
                                     TextSpan(
-                                      text: "XDG" + item.getFormattedAmount(),
+                                      text: "XDG " + item.getFormattedAmount(),
                                       style:
                                           AppStyles.textStyleTransactionAmount(
                                         context,
@@ -1927,7 +1927,7 @@ class _AppHomePageState extends State<AppHomePage>
                                 children: [
                                   // Main balance text
                                   TextSpan(
-                                    text: "XDG" +
+                                    text: "XDG " +
                                         StateContainer.of(context)
                                             .wallet
                                             .getAccountBalanceDisplay(),
@@ -1963,7 +1963,7 @@ class _AppHomePageState extends State<AppHomePage>
                             children: <Widget>[
                               Icon(
                                   _priceConversion == PriceConversion.BTC
-                                      ? AppIcons.btc
+                                      ? AppIcons.nanocurrency
                                       : AppIcons.nanocurrency,
                                   color:
                                       _priceConversion == PriceConversion.NONE

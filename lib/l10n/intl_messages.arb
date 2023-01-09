@@ -318,7 +318,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "welcomeText": "Welcome to Natrium. To begin, you may create a new wallet or import an existing one.",
+  "welcomeText": "welcome to Dault. To begin, you may create a new wallet or import an existing one.",
   "@welcomeText": {
     "description": "intro_welcome_title",
     "type": "text",
@@ -354,7 +354,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "sendAmountConfirm": "Send %1 NANO",
+  "sendAmountConfirm": "Send %1 XDG",
   "@sendAmountConfirm": {
     "description": "send_pin_description",
     "type": "text",
@@ -696,7 +696,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "natricon": "Natricon",
+  "natricon": "Doggycon",
   "@natricon": {
     "description": "natricon_settings",
     "type": "text",
@@ -948,7 +948,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "exampleCardIntro": "Welcome to Natrium. Once you receive NANO, transactions will show up like this:",
+  "exampleCardIntro": "welcome to Dault. Once you receive NANO, transactions will show up like this:",
   "@exampleCardIntro": {
     "description": "example_card_intro",
     "type": "text",

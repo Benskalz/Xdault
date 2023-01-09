@@ -1502,7 +1502,7 @@ class _SettingsSheetState extends State<SettingsSheet>
                       height: 2,
                       color: StateContainer.of(context).curTheme.text15,
                     ),
-                    // Natricon on-off
+                    // Doggycon on-off
                     AppSettings.buildSettingsListItemDoubleLine(
                         context,
                         AppLocalization.of(context).natricon,

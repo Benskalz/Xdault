@@ -458,7 +458,7 @@ class UIUtil {
 
   static String getNatriconURL(String address, String nonce) {
     String adjustedNonce = nonce == null || nonce == "" ? "" : "&nonce=$nonce";
-    address = address.replaceAll('xdg_', 'nano_');
-    return "https://natricon.com/api/v1/nano?svc=natrium&outline=true&outlineColor=white&address=$address$adjustedNonce";
+    // address = address.replaceAll('xdg_', 'nano_');
+    return "https://doggycon.dogenano.io/api/v1/pilou/$address$adjustedNonce?outline=true&outlineColor=white";
   }
 }

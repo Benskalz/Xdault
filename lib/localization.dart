@@ -293,7 +293,7 @@ class AppLocalization {
 
   String get welcomeText {
     return Intl.message(
-        "welcome to Xdault. To begin, you may create a new wallet or import an existing one.",
+        "welcome to Dault. To begin, you may create a new wallet or import an existing one.",
         desc: 'intro_welcome_title',
         name: 'welcomeText');
   }
@@ -324,7 +324,7 @@ class AppLocalization {
   }
 
   String get sendAmountConfirm {
-    return Intl.message("Send %1 NANO",
+    return Intl.message("Send %1 XDG",
         desc: 'send_pin_description', name: 'sendAmountConfirm');
   }
 
@@ -629,7 +629,7 @@ class AppLocalization {
   }
 
   String get natricon {
-    return Intl.message("Natricon",
+    return Intl.message("Doggycon",
         desc: 'natricon_settings', name: 'natricon');
   }
 
@@ -874,7 +874,7 @@ class AppLocalization {
 
   String get exampleCardIntro {
     return Intl.message(
-        "welcome to Xdault. Once you receive NANO, transactions will show up like this:",
+        "welcome to Dault. Once you receive NANO, transactions will show up like this:",
         desc: 'example_card_intro',
         name: 'exampleCardIntro');
   }
@@ -1227,21 +1227,17 @@ class AppLocalization {
   /// -- NON-TRANSLATABLE ITEMS
   String getBlockExplorerUrl(String hash, AvailableBlockExplorer explorer) {
     if (explorer.explorer == AvailableBlockExplorerEnum.NANOLOOKER) {
-      return 'https://nanolooker.com/block/$hash';
-    } else if (explorer.explorer == AvailableBlockExplorerEnum.NANOCAFE) {
-      return 'https://nanocafe.cc/$hash';
+      return 'https://explorer.dogenano.io/block/$hash';
     }
-    return 'https://nanocrawler.cc/explorer/block/$hash';
+    return 'https://explorer.dogenano.io/block/$hash';
   }
 
   String getAccountExplorerUrl(
       String account, AvailableBlockExplorer explorer) {
     if (explorer.explorer == AvailableBlockExplorerEnum.NANOLOOKER) {
-      return 'https://nanolooker.com/account/$account';
-    } else if (explorer.explorer == AvailableBlockExplorerEnum.NANOCAFE) {
-      return 'https://nanocafe.cc/$account';
+      return 'https://explorer.dogenano.io/account/$account';
     }
-    return 'https://nanocrawler.cc/explorer/account/$account';
+    return 'https://explorer.dogenano.io/block/$account';
   }
 
   String get eulaUrl {

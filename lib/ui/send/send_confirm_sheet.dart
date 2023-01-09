@@ -376,7 +376,7 @@ class _SendConfirmSheetState extends State<SendConfirmSheet> {
           max: widget.maxSend);
       if (widget.manta != null) {
         widget.manta
-            .sendPayment(transactionHash: resp.hash, cryptoCurrency: "NANO");
+            .sendPayment(transactionHash: resp.hash, cryptoCurrency: "XDG");
       }
       StateContainer.of(context).wallet.frontier = resp.hash;
       StateContainer.of(context).wallet.accountBalance +=

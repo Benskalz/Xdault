@@ -135,7 +135,7 @@ class _AvatarChangePageState extends State<AvatarChangePage> {
                       ),
                       alignment: AlignmentDirectional(-1, 0),
                       child: AutoSizeText(
-                        "Change Natricon",
+                        "Change Doggycon",
                         maxLines: 3,
                         stepGranularity: 0.5,
                         style: AppStyles.textStyleHeaderColored(context),
@@ -148,7 +148,7 @@ class _AvatarChangePageState extends State<AvatarChangePage> {
                           end: smallScreen(context) ? 30 : 40,
                           top: 16.0),
                       child: AutoSizeText(
-                        "You'll be asked to send 0.001~ Nano to the Natricon address to change your Natricon.",
+                        "You'll be asked to send 0.001~ Nano to the Doggycon address to change your Doggycon.",
                         style: AppStyles.textStyleParagraph(context),
                         maxLines: 3,
                         stepGranularity: 0.5,
@@ -223,7 +223,7 @@ class _AvatarChangePageState extends State<AvatarChangePage> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
-                            // Previous Natricon Button
+                            // Previous Doggycon Button
                             Container(
                               height: 50,
                               width: 50,
@@ -280,7 +280,7 @@ class _AvatarChangePageState extends State<AvatarChangePage> {
                                     size: 24),
                               ),
                             ),
-                            // Next Natricon Button
+                            // Next Doggycon Button
                             Container(
                               height: 50,
                               width: 50,

@@ -99,7 +99,7 @@ class StateContainerState extends State<StateContainer> {
   AvailableCurrency curCurrency = AvailableCurrency(AvailableCurrencyEnum.USD);
   LanguageSetting curLanguage = LanguageSetting(AvailableLanguage.DEFAULT);
   AvailableBlockExplorer curBlockExplorer =
-      AvailableBlockExplorer(AvailableBlockExplorerEnum.NANOCRAWLER);
+      AvailableBlockExplorer(AvailableBlockExplorerEnum.NANOLOOKER);
   BaseTheme curTheme = NatriumTheme();
   // Currently selected account
   Account selectedAccount =
@@ -108,7 +108,7 @@ class StateContainerState extends State<StateContainer> {
   Account recentLast;
   Account recentSecondLast;
 
-  // Natricon true
+  // Doggycon true
   bool natriconOn = true;
   Map<String, String> natriconNonce = Map<String, String>();
 

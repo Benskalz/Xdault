@@ -534,7 +534,7 @@ class _AppAccountsWidgetState extends State<AppAccountsWidget> {
                                     // Main balance text
                                     TextSpan(
                                       text: (account.balance != null
-                                              ? "XDG"
+                                              ? "XDG "
                                               : "") +
                                           (account.balance != null &&
                                                   !account.selected

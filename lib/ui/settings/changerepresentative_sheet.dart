@@ -535,31 +535,31 @@ class AppChangeRepresentativeSheet {
                           //A row with change and close button
                           Column(
                             children: <Widget>[
-                              Row(
-                                children: <Widget>[
-                                  AppButton.buildAppButton(
-                                    context,
-                                    AppButtonType.PRIMARY,
-                                    AppLocalization.of(context).pickFromList,
-                                    Dimens.BUTTON_TOP_DIMENS,
-                                    disabled: StateContainer.of(context)
-                                            .nanoNinjaNodes ==
-                                        null,
-                                    onPressed: () {
-                                      showDialog(
-                                          barrierColor:
-                                              StateContainer.of(context)
-                                                  .curTheme
-                                                  .barrier,
-                                          context: context,
-                                          builder: (BuildContext context) {
-                                            return _buildRepresenativeDialog(
-                                                context);
-                                          });
-                                    },
-                                  ),
-                                ],
-                              ),
+                              // Row(
+                              //   children: <Widget>[
+                              //     AppButton.buildAppButton(
+                              //       context,
+                              //       AppButtonType.PRIMARY,
+                              //       AppLocalization.of(context).pickFromList,
+                              //       Dimens.BUTTON_TOP_DIMENS,
+                              //       disabled: StateContainer.of(context)
+                              //               .nanoNinjaNodes ==
+                              //           null,
+                              //       onPressed: () {
+                              //         showDialog(
+                              //             barrierColor:
+                              //                 StateContainer.of(context)
+                              //                     .curTheme
+                              //                     .barrier,
+                              //             context: context,
+                              //             builder: (BuildContext context) {
+                              //               return _buildRepresenativeDialog(
+                              //                   context);
+                              //             });
+                              //       },
+                              //     ),
+                              //   ],
+                              // ),
                               Row(
                                 children: <Widget>[
                                   AppButton.buildAppButton(

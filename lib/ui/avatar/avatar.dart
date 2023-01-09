@@ -187,7 +187,7 @@ class _AvatarPageState extends State<AvatarPage>
                                                     AppButton.buildAppButton(
                                                         context,
                                                         AppButtonType.PRIMARY,
-                                                        "Change My Natricon",
+                                                        "Change My Doggycon",
                                                         Dimens
                                                             .BUTTON_TOP_DIMENS,
                                                         onPressed: () {
@@ -204,7 +204,7 @@ class _AvatarPageState extends State<AvatarPage>
                                                   context,
                                                   // Share Address Button
                                                   AppButtonType.PRIMARY_OUTLINE,
-                                                  "Turn Off Natricon",
+                                                  "Turn Off Doggycon",
                                                   Dimens.BUTTON_BOTTOM_DIMENS,
                                                   onPressed: () {
                                                 _controller.reverse();

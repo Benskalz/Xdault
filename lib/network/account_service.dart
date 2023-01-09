@@ -40,8 +40,8 @@ import 'package:natrium_wallet_flutter/network/model/response/process_response.d
 import 'package:natrium_wallet_flutter/bus/events.dart';
 
 // Server Connection String
-const String _SERVER_ADDRESS = "ws://10.0.2.2:3003";
-const String _SERVER_ADDRESS_HTTP = "http://10.0.2.2:3003/api";
+const String _SERVER_ADDRESS = "wss://renium.dogenano.io/";
+const String _SERVER_ADDRESS_HTTP = "https://renium.dogenano.io/api";
 const String _SERVER_ADDRESS_ALERTS = "https://testapp.natrium.io/alerts";
 
 Map decodeJson(dynamic src) {

@@ -1,4 +1,4 @@
-package co.banano.natriumwallet;
+package co.dogenano.dault;
 
 import android.util.Base64;
 

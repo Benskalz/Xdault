@@ -6,6 +6,7 @@ import 'package:natrium_wallet_flutter/themes.dart';
 import 'package:natrium_wallet_flutter/appstate_container.dart';
 import 'package:natrium_wallet_flutter/ui/widgets/app_simpledialog.dart';
 import 'package:natrium_wallet_flutter/util/caseconverter.dart';
+import 'package:loading_animations/loading_animations.dart';
 
 class AppDialogs {
   static void showConfirmDialog(
@@ -161,90 +162,79 @@ class AnimationLoadingOverlay extends ModalRoute<void> {
     switch (type) {
       case AnimationType.SEND:
         return Center(
-          child: FlareActor(
-            "assets/send_animation.flr",
-            animation: "main",
-            fit: BoxFit.contain,
-            color: StateContainer.of(context).curTheme.primary,
-          ),
-        );
+            child: LoadingBouncingGrid.square(
+          backgroundColor: Colors.blue[100],
+          size: 125,
+          inverted: true,
+        ));
       case AnimationType.MANTA:
         return Center(
-          child: FlareActor(
-            "assets/manta_animation.flr",
-            animation: "main",
-            fit: BoxFit.contain,
-          ),
-        );
+            child: LoadingBouncingGrid.square(
+          backgroundColor: Colors.blue[100],
+          size: 125,
+          inverted: true,
+        ));
       case AnimationType.TRANSFER_SEARCHING_QR:
         return Stack(
           children: <Widget>[
             Center(
-              child: FlareActor(
-                "assets/searchseedqr_animation_qronly.flr",
-                animation: "main",
-                fit: BoxFit.contain,
-              ),
-            ),
+                child: LoadingBouncingGrid.square(
+              backgroundColor: Colors.blue[100],
+              size: 125,
+              inverted: true,
+            )),
             Center(
-              child: FlareActor(
-                "assets/searchseedqr_animation_glassonly.flr",
-                animation: "main",
-                fit: BoxFit.contain,
-              ),
-            ),
+                child: LoadingBouncingGrid.square(
+              backgroundColor: Colors.blue[100],
+              size: 125,
+              inverted: true,
+            )),
             Center(
-              child: FlareActor(
-                "assets/searchseedqr_animation_magnifyingglassonly.flr",
-                animation: "main",
-                fit: BoxFit.contain,
-                color: StateContainer.of(context).curTheme.primary,
-              ),
-            ),
+                child: LoadingBouncingGrid.square(
+              backgroundColor: Colors.blue[100],
+              size: 125,
+              inverted: true,
+            )),
           ],
         );
       case AnimationType.TRANSFER_SEARCHING_MANUAL:
         return Stack(
           children: <Widget>[
             Center(
-              child: FlareActor(
-                "assets/searchseedmanual_animation_seedonly.flr",
-                animation: "main",
-                fit: BoxFit.contain,
-                color: StateContainer.of(context).curTheme.primary30,
-              ),
-            ),
+                child: LoadingBouncingGrid.square(
+              backgroundColor: Colors.blue[100],
+              size: 125,
+              inverted: true,
+            )),
             Center(
-              child: FlareActor(
-                "assets/searchseedmanual_animation_glassonly.flr",
-                animation: "main",
-                fit: BoxFit.contain,
-              ),
-            ),
+                child: LoadingBouncingGrid.square(
+              backgroundColor: Colors.blue[100],
+              size: 125,
+              inverted: true,
+            )),
             Center(
-              child: FlareActor(
-                "assets/searchseedmanual_animation_magnifyingglassonly.flr",
-                animation: "main",
-                fit: BoxFit.contain,
-                color: StateContainer.of(context).curTheme.primary,
-              ),
-            ),
+                child: LoadingBouncingGrid.square(
+              backgroundColor: Colors.blue[100],
+              size: 125,
+              inverted: true,
+            )),
           ],
         );
       case AnimationType.TRANSFER_TRANSFERRING:
         return Stack(
           children: <Widget>[
-            FlareActor(
-              "assets/transfer_animation_paperwalletonly.flr",
-              animation: "main",
-              fit: BoxFit.contain,
-            ),
-            FlareActor(
-              "assets/transfer_animation_natriumwalletonly.flr",
-              animation: "main",
-              fit: BoxFit.contain,
-              color: StateContainer.of(context).curTheme.primary,
-            ),
+            Center(
+                child: LoadingBouncingGrid.square(
+              backgroundColor: Colors.blue[100],
+              size: 125,
+              inverted: true,
+            )),
+            Center(
+                child: LoadingBouncingGrid.square(
+              backgroundColor: Colors.blue[100],
+              size: 125,
+              inverted: true,
+            )),
           ],
         );
       case AnimationType.GENERIC:
@@ -302,17 +292,12 @@ class AnimationLoadingOverlay extends ModalRoute<void> {
                             AppLocalization.of(context).transferLoading,
                             context),
                         style: AppStyles.textStyleHeader2Colored(context)),
-                    Container(
-                      margin: EdgeInsets.only(bottom: 7),
-                      width: 33.333,
-                      height: 8.866,
-                      child: FlareActor(
-                        "assets/threedot_animation.flr",
-                        animation: "main",
-                        fit: BoxFit.contain,
-                        color: StateContainer.of(context).curTheme.primary,
-                      ),
-                    ),
+                    Center(
+                        child: LoadingBouncingGrid.square(
+                      backgroundColor: Colors.blue[100],
+                      size: 125,
+                      inverted: true,
+                    )),
                   ],
                 ),
               ),
@@ -321,14 +306,11 @@ class AnimationLoadingOverlay extends ModalRoute<void> {
         );
       case AnimationType.MANTA:
         return Center(
-          child: Container(
-            margin: EdgeInsets.only(
-                bottom: MediaQuery.of(context).size.height * 0.05),
-            width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.width,
-            child: _getAnimation(context),
-          ),
-        );
+            child: LoadingBouncingGrid.square(
+          backgroundColor: Colors.blue[100],
+          size: 125,
+          inverted: true,
+        ));
       default:
         return Column(
           mainAxisSize: MainAxisSize.min,
