@@ -122,7 +122,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Passwort eingeben"),
         "exampleCardFrom": MessageLookupByLibrary.simpleMessage("Von jemandem"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Willkommen bei Natrium. Wenn du NANO sendest oder empfängst, sieht es aus wie folgt: "),
+            "Willkommen bei Kryptos. Wenn du NANO sendest oder empfängst, sieht es aus wie folgt: "),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Ein paar"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Ein paar mehr"),
         "exampleCardTo": MessageLookupByLibrary.simpleMessage("An jemanden"),
@@ -167,7 +167,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Bist du dir sicher?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Beim Ausloggen werden dein Seed und alle mit Natrium verbundenen Daten von diesem Gerät gelöscht. Falls du deinen Seed nicht gesichert hast, verlierst du dauerhaft den Zugriff auf dein Guthaben."),
+            "Beim Ausloggen werden dein Seed und alle mit Kryptos verbundenen Daten von diesem Gerät gelöscht. Falls du deinen Seed nicht gesichert hast, verlierst du dauerhaft den Zugriff auf dein Guthaben."),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Solange du deinen Seed gesichert hast, musst du dir keine Gedanken machen."),
         "manage": MessageLookupByLibrary.simpleMessage("Verwaltung"),
@@ -195,7 +195,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Keine Kontakte zum Importieren gefunden"),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Überspringen"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Öffne Natrium, um diese Transaktion zu sehen."),
+            "Öffne Kryptos, um diese Transaktion zu sehen."),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Zum Öffnen tippen"),
         "notificationTitle":
@@ -212,7 +212,7 @@ class MessageLookup extends MessageLookupByLibrary {
                 "Zum Öffnen der App wird jetzt kein Passwort mehr benötigt."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Dieses Passwort wird benötigt, um Natrium zu öffnen."),
+                "Dieses Passwort wird benötigt, um Kryptos zu öffnen."),
         "passwordsDontMatch": MessageLookupByLibrary.simpleMessage(
             "Passwörter stimmen nicht überein"),
         "pending": MessageLookupByLibrary.simpleMessage("ausstehend"),
@@ -306,9 +306,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsHeader": MessageLookupByLibrary.simpleMessage("Einstellungen"),
         "settingsTransfer": MessageLookupByLibrary.simpleMessage(
             "Von Paper Wallet importieren"),
-        "shareNatrium": MessageLookupByLibrary.simpleMessage("Natrium teilen"),
+        "shareNatrium": MessageLookupByLibrary.simpleMessage("Kryptos teilen"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Probier mal Natrium, Nanos offizielles Android-Wallet!"),
+            "Probier mal Kryptos, Nanos offizielles Android-Wallet!"),
         "switchToSeed":
             MessageLookupByLibrary.simpleMessage("Zum Seed wechseln"),
         "systemDefault": MessageLookupByLibrary.simpleMessage("Systemsprache"),
@@ -325,7 +325,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Tippe, um das Fenster zu schließen."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO wurden erfolgreich an dein Natrium Wallet gesendet."),
+            "%1 NANO wurden erfolgreich an dein Kryptos Wallet gesendet."),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "Ein Wallet mit einem Guthaben von %1 NANO wurde gefunden.\n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -337,7 +337,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Guthaben\ntransferieren"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Dieser Vorgang wird das Guthaben vom Paper Wallet in dein Natrium Wallet transferieren.\n\nTippe zum Starten auf \"%1\" ."),
+            "Dieser Vorgang wird das Guthaben vom Paper Wallet in dein Kryptos Wallet transferieren.\n\nTippe zum Starten auf \"%1\" ."),
         "transferLoading":
             MessageLookupByLibrary.simpleMessage("Transfer läuft"),
         "transferManualHint":
@@ -351,15 +351,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("unbestätigt"),
         "unlock": MessageLookupByLibrary.simpleMessage("Entsperrt"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Authentifizieren, um Natrium zu entsperren"),
+            "Authentifizieren, um Kryptos zu entsperren"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
-            "PIN eingeben, um Natrium zu entsperren"),
+            "PIN eingeben, um Kryptos zu entsperren"),
         "uptime": MessageLookupByLibrary.simpleMessage("Verfügbarkeit"),
         "viewDetails": MessageLookupByLibrary.simpleMessage("Details ansehen"),
         "votingWeight": MessageLookupByLibrary.simpleMessage("Stimmgewicht"),
         "warning": MessageLookupByLibrary.simpleMessage("WARNUNG"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Willkommen bei Natrium. Um fortzufahren, benötigst du ein Wallet. Erstelle bitte ein neues Wallet oder importiere ein bereits existierendes Wallet."),
+            "Willkommen bei Kryptos. Um fortzufahren, benötigst du ein Wallet. Erstelle bitte ein neues Wallet oder importiere ein bereits existierendes Wallet."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Nach %1 Minute"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Nach %1 Minute"),
         "yes": MessageLookupByLibrary.simpleMessage("Ja"),

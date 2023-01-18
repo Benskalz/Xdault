@@ -122,7 +122,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "exampleCardFrom":
             MessageLookupByLibrary.simpleMessage("daripada seseorang"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Selamat datang ke Natrium. Sekali anda menerima NANO, transaksi akan terlihat seperti ini"),
+            "Selamat datang ke Kryptos. Sekali anda menerima NANO, transaksi akan terlihat seperti ini"),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Sedikit"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Banyak"),
         "exampleCardTo":
@@ -167,7 +167,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Adakah anda pasti?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Log Keluar akan memadamkan benih anda dan semua data berkaitan Natrium daripada peranti ini. Jikalau benih anda tidak disandarkan, anda tidak akan mendapatkan akses kepada baki anda lagi."),
+            "Log Keluar akan memadamkan benih anda dan semua data berkaitan Kryptos daripada peranti ini. Jikalau benih anda tidak disandarkan, anda tidak akan mendapatkan akses kepada baki anda lagi."),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Selagi anda telah menyandarkan benih anda, tiada yang perlu dirisau."),
         "manage": MessageLookupByLibrary.simpleMessage("Mengurus"),
@@ -195,7 +195,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Tidak menemukan untuk impor"),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Tidak, Langkau"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Buka Natrium bagi melihat transaksi ini."),
+            "Buka Kryptos bagi melihat transaksi ini."),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Ketuk untuk buka"),
         "notificationTitle":
@@ -208,10 +208,10 @@ class MessageLookup extends MessageLookupByLibrary {
             "Kata laluan tidak boleh kosong"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Anda tidak perlu kata laluan untuk membuka Natrium lagi."),
+                "Anda tidak perlu kata laluan untuk membuka Kryptos lagi."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Kata laluan ini diperlukan untuk membuka Natrium."),
+                "Kata laluan ini diperlukan untuk membuka Kryptos."),
         "passwordsDontMatch":
             MessageLookupByLibrary.simpleMessage("Kata laluan tidak sepadan"),
         "pending": MessageLookupByLibrary.simpleMessage("belum selesai"),
@@ -258,7 +258,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Apakah kewakilan?"),
         "representatives": MessageLookupByLibrary.simpleMessage("Wakil"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Memerlukan kata laluan untuk membuka Natrium?"),
+            "Memerlukan kata laluan untuk membuka Kryptos?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Nampaknya peranti anda \"di-root\", \"jailbroken\", atau diubah suai dengan cara yang menjejaskan keselamatan. Adalah disyorkan bahawa anda menetapkan semula peranti anda kepada keadaan asal sebelum meneruskan."),
         "scanInstructions": MessageLookupByLibrary.simpleMessage(
@@ -304,9 +304,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsHeader": MessageLookupByLibrary.simpleMessage("Tetapan"),
         "settingsTransfer":
             MessageLookupByLibrary.simpleMessage("Muatkan dari Dompet Kertas"),
-        "shareNatrium": MessageLookupByLibrary.simpleMessage("Kongsi Natrium"),
+        "shareNatrium": MessageLookupByLibrary.simpleMessage("Kongsi Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Semakkan Natrium! Dompet Android Nano yang rasmi"),
+            "Semakkan Kryptos! Dompet Android Nano yang rasmi"),
         "switchToSeed":
             MessageLookupByLibrary.simpleMessage("Beralih kepada Benih"),
         "systemDefault": MessageLookupByLibrary.simpleMessage("Default Sistem"),
@@ -323,7 +323,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Ketuk mana-mana sahaja untuk menutup tetingkap."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO berjaya dipindahkan ke Dompet Natrium anda. <Newline>"),
+            "%1 NANO berjaya dipindahkan ke Dompet Kryptos anda. <Newline>"),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "Satu dompet dengan keseimbangan %1 NANO telah dikesan. \n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -335,7 +335,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Pemindahan Dana"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Proses ini akan memindahkan dana dari dompet kertas ke dompet Natrium anda. <Newline> \nKetuk \"% 1\" untuk memulakan."),
+            "Proses ini akan memindahkan dana dari dompet kertas ke dompet Kryptos anda. <Newline> \nKetuk \"% 1\" untuk memulakan."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Memindahkan"),
         "transferManualHint": MessageLookupByLibrary.simpleMessage(
             "Sila masukkan benih di bawah."),
@@ -348,15 +348,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("tidak disahkan"),
         "unlock": MessageLookupByLibrary.simpleMessage("Buka kunci"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Mengesahkan untuk membuka kunci Natrium"),
+            "Mengesahkan untuk membuka kunci Kryptos"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
-            "Masukkan PIN untuk Membuka Natrium"),
+            "Masukkan PIN untuk Membuka Kryptos"),
         "uptime": MessageLookupByLibrary.simpleMessage("Uptime"),
         "viewDetails": MessageLookupByLibrary.simpleMessage("Lihat Butiran"),
         "votingWeight": MessageLookupByLibrary.simpleMessage("Berat Mengundi"),
         "warning": MessageLookupByLibrary.simpleMessage("AMARAN"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Selamat datang ke Natrium. Untuk bersambung, anda boleh membuat dompet yang baru atau import dompet yang sedia ada."),
+            "Selamat datang ke Kryptos. Untuk bersambung, anda boleh membuat dompet yang baru atau import dompet yang sedia ada."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Selepas %1 minit"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Selepas %1 minit"),
         "yes": MessageLookupByLibrary.simpleMessage("Ya"),

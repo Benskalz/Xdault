@@ -166,7 +166,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Jste si jisti?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Odhlášením odstraníte z tohoto zařízení vaše semínko a všechna data související s Natrium. Pokud vaše semínko není zálohováno, už nikdy nebudete mít přístup ke svým prostředkům"),
+            "Odhlášením odstraníte z tohoto zařízení vaše semínko a všechna data související s Kryptos. Pokud vaše semínko není zálohováno, už nikdy nebudete mít přístup ke svým prostředkům"),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Pokud jste zálohovali své semínko, nemusíte se ničeho obávat."),
         "manage": MessageLookupByLibrary.simpleMessage("Spravovat"),
@@ -194,7 +194,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Žádné nové kontakty k importu."),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Ne, přeskočit"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Otevřete Natrium pro zobrazení této transakce"),
+            "Otevřete Kryptos pro zobrazení této transakce"),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Klepnutím otevřete"),
         "notificationTitle":
@@ -208,10 +208,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Heslo nemůže být prázdné"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Už nebudete potřebovat heslo pro otevření Natrium."),
+                "Už nebudete potřebovat heslo pro otevření Kryptos."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Toto heslo bude vyžadováno k otevření Natrium."),
+                "Toto heslo bude vyžadováno k otevření Kryptos."),
         "passwordsDontMatch":
             MessageLookupByLibrary.simpleMessage("Heslo se neshoduje"),
         "pending": MessageLookupByLibrary.simpleMessage("nevyřízený"),
@@ -259,7 +259,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Co je to zástupce?"),
         "representatives": MessageLookupByLibrary.simpleMessage("Zástupci"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Vyžadovat heslo k otevření Natrium?"),
+            "Vyžadovat heslo k otevření Kryptos?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Zdá se, že vaše zařízení je \"rootováno\", \"jailbroken\" nebo upraveno způsobem, který ohrožuje zabezpečení. Před pokračováním se doporučuje resetovat zařízení do původního stavu."),
         "scanInstructions": MessageLookupByLibrary.simpleMessage(
@@ -305,9 +305,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsHeader": MessageLookupByLibrary.simpleMessage("Nastavení"),
         "settingsTransfer":
             MessageLookupByLibrary.simpleMessage("Načíst z papírové penězenky"),
-        "shareNatrium": MessageLookupByLibrary.simpleMessage("Sdílet Natrium"),
+        "shareNatrium": MessageLookupByLibrary.simpleMessage("Sdílet Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Vyzkoušejte Natrium! Špičková mobilní peněženka NANO!"),
+            "Vyzkoušejte Kryptos! Špičková mobilní peněženka NANO!"),
         "switchToSeed":
             MessageLookupByLibrary.simpleMessage("Přepnout na semínko"),
         "systemDefault":
@@ -324,7 +324,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Klepnutím kamkoli zavřete okno."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO úspěšně převedeno do vaší peněženky Natrium. \n"),
+            "%1 NANO úspěšně převedeno do vaší peněženky Kryptos. \n"),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "Byla nalezena peněženka se zůstatkem %1 NANO. \n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -336,7 +336,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Převést finanční prostředky"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Tento proces přenese prostředky z papírové peněženky do vaší peněženky Natrium. \n\n Začněte klepnutím na tlačítko \"% 1\"."),
+            "Tento proces přenese prostředky z papírové peněženky do vaší peněženky Kryptos. \n\n Začněte klepnutím na tlačítko \"% 1\"."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Přenáší se"),
         "transferManualHint":
             MessageLookupByLibrary.simpleMessage("Zadejte semínko níže."),
@@ -349,7 +349,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("nepotvrzený"),
         "unlock": MessageLookupByLibrary.simpleMessage("Odemknout"),
         "unlockBiometrics":
-            MessageLookupByLibrary.simpleMessage("Ověřte a odemkněte Natrium"),
+            MessageLookupByLibrary.simpleMessage("Ověřte a odemkněte Kryptos"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
             "Zadejte PIN pro odemčení Natria"),
         "uptime": MessageLookupByLibrary.simpleMessage("Provozuschopnost"),
@@ -357,7 +357,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "votingWeight": MessageLookupByLibrary.simpleMessage("Hlasovací síla"),
         "warning": MessageLookupByLibrary.simpleMessage("Varování"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Vítejte v Natrium. Nejprve můžete vytvořit novou peněženku nebo importovat stávající."),
+            "Vítejte v Kryptos. Nejprve můžete vytvořit novou peněženku nebo importovat stávající."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Po %1 minutě"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Po %1 minutách"),
         "yes": MessageLookupByLibrary.simpleMessage("Ano"),

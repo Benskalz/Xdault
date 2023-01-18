@@ -124,7 +124,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Nhập mật khẩu"),
         "exampleCardFrom": MessageLookupByLibrary.simpleMessage("Từ ai đó"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Chào mừng đến với Natrium. Khi bạn nhận Nano, các giao dịch sẽ được hiển thị như sau:"),
+            "Chào mừng đến với Kryptos. Khi bạn nhận Nano, các giao dịch sẽ được hiển thị như sau:"),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Một chút"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Khá là nhiều"),
         "exampleCardTo": MessageLookupByLibrary.simpleMessage("Đến ai đó"),
@@ -168,7 +168,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Bạn có chắc không?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Đăng xuất sẽ xóa hạt giống (seed) của bạn và tất cả dữ liệu liên quan đến Natrium khỏi thiết bị này. Nếu bạn không lưu lại hạt giống, bạn sẽ không thể truy cập vào ví của mình."),
+            "Đăng xuất sẽ xóa hạt giống (seed) của bạn và tất cả dữ liệu liên quan đến Kryptos khỏi thiết bị này. Nếu bạn không lưu lại hạt giống, bạn sẽ không thể truy cập vào ví của mình."),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Sẽ không có gì phải lo lắng nếu bạn đã sao lưu hạt giống."),
         "manage": MessageLookupByLibrary.simpleMessage("Quản lí"),
@@ -196,7 +196,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Không có liên hệ nào để nhập."),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Không, bỏ qua"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Mở Natrium để xem giao dịch này"),
+            "Mở Kryptos để xem giao dịch này"),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Chạm để mở"),
         "notificationTitle":
@@ -209,10 +209,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Không thể bỏ trống mật khẩu"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Bạn sẽ không cần mật khẩu để mở Natrium nữa."),
+                "Bạn sẽ không cần mật khẩu để mở Kryptos nữa."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Mật khẩu này sẽ được yêu cầu để mở Natrium."),
+                "Mật khẩu này sẽ được yêu cầu để mở Kryptos."),
         "passwordsDontMatch":
             MessageLookupByLibrary.simpleMessage("Mật khẩu không khớp"),
         "pending": MessageLookupByLibrary.simpleMessage("đang chờ xác nhận"),
@@ -260,7 +260,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Đại diện là gì?"),
         "representatives": MessageLookupByLibrary.simpleMessage("Đại diện"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Yêu cầu mật khẩu để mở Natrium?"),
+            "Yêu cầu mật khẩu để mở Kryptos?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Có vẻ như thiết bị của bạn đã được \"root\", \"jailbreak\" hoặc được sửa đổi gây ảnh hưởng đến tính bảo mật. Bạn nên đặt lại thiết bị của bạn về trạng thái ban đầu trước khi tiếp tục."),
         "scanInstructions":
@@ -306,9 +306,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsHeader": MessageLookupByLibrary.simpleMessage("Cài đặt"),
         "settingsTransfer":
             MessageLookupByLibrary.simpleMessage("Nhập từ ví giấy"),
-        "shareNatrium": MessageLookupByLibrary.simpleMessage("Chia sẻ Natrium"),
+        "shareNatrium": MessageLookupByLibrary.simpleMessage("Chia sẻ Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Thử ngay Natrium! Ví Nano di động hàng đầu!"),
+            "Thử ngay Kryptos! Ví Nano di động hàng đầu!"),
         "switchToSeed":
             MessageLookupByLibrary.simpleMessage("Chuyển sang hạt giống"),
         "systemDefault":
@@ -324,7 +324,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Chạm một chỗ bất kỳ để đóng cửa sổ."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 Nano đã được chuyển vào ví Natrium của bạn.\n"),
+            "%1 Nano đã được chuyển vào ví Kryptos của bạn.\n"),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "Đã tìm thấy một ví với số dư là %1 BAN. \n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -335,7 +335,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Đã có lỗi trong quá trình giao dịch, vui lòng thử lại sau."),
         "transferHeader": MessageLookupByLibrary.simpleMessage("Chuyển tiền"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Quá trình này sẽ chuyển toàn bộ số dư từ ví giấy sang ví Natrium của bạn.\n\nNhấn nút \"%1\" để bắt đầu."),
+            "Quá trình này sẽ chuyển toàn bộ số dư từ ví giấy sang ví Kryptos của bạn.\n\nNhấn nút \"%1\" để bắt đầu."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Đang chuyển"),
         "transferManualHint":
             MessageLookupByLibrary.simpleMessage("Hãy nhập hạt giống dưới đây"),
@@ -350,14 +350,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "unlockBiometrics":
             MessageLookupByLibrary.simpleMessage("Xác nhận mở khoá Kalium"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
-            "Nhập mã PIN để mở khoá Natrium"),
+            "Nhập mã PIN để mở khoá Kryptos"),
         "uptime": MessageLookupByLibrary.simpleMessage(
             "Thời gian hoạt động (uptime)"),
         "viewDetails": MessageLookupByLibrary.simpleMessage("Xem chi tiết"),
         "votingWeight": MessageLookupByLibrary.simpleMessage("Lượng bỏ phiếu"),
         "warning": MessageLookupByLibrary.simpleMessage("CẢNH BÁO!"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Chào mừng đến với Natrium. Để bắt đầu, bạn có thể tạo ví mới hoặc nhập ví hiện có."),
+            "Chào mừng đến với Kryptos. Để bắt đầu, bạn có thể tạo ví mới hoặc nhập ví hiện có."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Sau %1 phút"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Sau %1 phút"),
         "yes": MessageLookupByLibrary.simpleMessage("Có"),

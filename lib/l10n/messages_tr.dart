@@ -116,7 +116,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Şifreni gir"),
         "exampleCardFrom": MessageLookupByLibrary.simpleMessage("birinden"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Natrium’a hoşgeldin. Hesabına NANO geldiğinde işlemlerin şu şekilde görünecek"),
+            "Kryptos’a hoşgeldin. Hesabına NANO geldiğinde işlemlerin şu şekilde görünecek"),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Birazcık"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Bir sürü"),
         "exampleCardTo": MessageLookupByLibrary.simpleMessage("birine"),
@@ -160,7 +160,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Emin misiniz?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Çıkış yaptığınızda seed\'iniz ve Natrium\'la ilgili bütün verileriniz bu cihazdan silinecektir. Seed\'inizi yedeklemediyseniz paranıza bir daha asla ulaşamazsınız."),
+            "Çıkış yaptığınızda seed\'iniz ve Kryptos\'la ilgili bütün verileriniz bu cihazdan silinecektir. Seed\'inizi yedeklemediyseniz paranıza bir daha asla ulaşamazsınız."),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Seed\'inizi yedeklediyseniz endişe etmenize gerek yok."),
         "manage": MessageLookupByLibrary.simpleMessage("Yönet"),
@@ -187,7 +187,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "İçe aktarılacak bir kişi bulunamadı"),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Hayır, Geç"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Bu transferi görmek için Natrium’u aç."),
+            "Bu transferi görmek için Kryptos’u aç."),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Açmak için dokun"),
         "notificationTitle":
@@ -200,10 +200,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Şifre alanı boş olamaz"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Artık Natrium\'u açmak için şifre gerekmeyecek."),
+                "Artık Kryptos\'u açmak için şifre gerekmeyecek."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Natrium\'u açabilmek için bu şifre gerekecek."),
+                "Kryptos\'u açabilmek için bu şifre gerekecek."),
         "passwordsDontMatch":
             MessageLookupByLibrary.simpleMessage("Şifreler eşleşmiyor"),
         "pending": MessageLookupByLibrary.simpleMessage("beklemede"),
@@ -250,7 +250,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Temsilci nedir?"),
         "representatives": MessageLookupByLibrary.simpleMessage("Temsilciler"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Natrium\'u açarken şifre sorulsun mu?"),
+            "Kryptos\'u açarken şifre sorulsun mu?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Cihazın \"root\" veya \"jailbreak\" edilmiş gibi görünüyor. Bu durum bir güvenlik riski oluşturuyor. Devam etmeden önce cihazını sıfırlamanı ve eski haline döndürmeni tavsiye ederiz."),
         "scanInstructions": MessageLookupByLibrary.simpleMessage(
@@ -295,9 +295,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsTransfer":
             MessageLookupByLibrary.simpleMessage("Bakiye Transferi"),
         "shareNatrium":
-            MessageLookupByLibrary.simpleMessage("Natrium\'u Paylaş"),
+            MessageLookupByLibrary.simpleMessage("Kryptos\'u Paylaş"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Nano\'nun resmi Android Cüzdanı Natrium\'u denesene!"),
+            "Nano\'nun resmi Android Cüzdanı Kryptos\'u denesene!"),
         "switchToSeed": MessageLookupByLibrary.simpleMessage("Seede Geç"),
         "systemDefault": MessageLookupByLibrary.simpleMessage("Sistem Dili"),
         "tapToHide":
@@ -313,7 +313,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Pencereyi kapatmak için herhangi bir yere dokun."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO başarıyla Natrium cüzdanına aktarıldı."),
+            "%1 NANO başarıyla Kryptos cüzdanına aktarıldı."),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "%1 NANO bakiyeye sahip bir cüzdan tespit edildi.\n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -325,7 +325,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Bakiye\nTransferi"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Bu işlem bir kağıt cüzdanda bulunan bakiyeyi senin Natrium cüzdanına aktaracak.\n\nBaşlamak için \"%1\" butonuna bas."),
+            "Bu işlem bir kağıt cüzdanda bulunan bakiyeyi senin Kryptos cüzdanına aktaracak.\n\nBaşlamak için \"%1\" butonuna bas."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Aktarılıyor"),
         "transferManualHint":
             MessageLookupByLibrary.simpleMessage("Lütfen seedi gir."),
@@ -338,15 +338,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("onaylanmamış"),
         "unlock": MessageLookupByLibrary.simpleMessage("Kilidi Aç"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Natrium’u Açmak için Kimliğini Doğrula"),
+            "Kryptos’u Açmak için Kimliğini Doğrula"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
-            "Natrium’u Açmak için Pin Kodunu Gir"),
+            "Kryptos’u Açmak için Pin Kodunu Gir"),
         "uptime": MessageLookupByLibrary.simpleMessage("Çevrimiçi"),
         "viewDetails": MessageLookupByLibrary.simpleMessage("Ayrıntılar"),
         "votingWeight": MessageLookupByLibrary.simpleMessage("Oy Ağırlığı"),
         "warning": MessageLookupByLibrary.simpleMessage("UYARI"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Natrium\'a hoşgeldiniz. Devam etmek için yeni bir cüzdan oluşturabilir veya var olanı içe aktarabilirsiniz."),
+            "Kryptos\'a hoşgeldiniz. Devam etmek için yeni bir cüzdan oluşturabilir veya var olanı içe aktarabilirsiniz."),
         "xMinute": MessageLookupByLibrary.simpleMessage("%1 dakika sonra"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("%1 dakika sonra"),
         "yes": MessageLookupByLibrary.simpleMessage("Evet"),

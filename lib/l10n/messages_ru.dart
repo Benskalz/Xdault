@@ -122,7 +122,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Введите свой пароль"),
         "exampleCardFrom": MessageLookupByLibrary.simpleMessage("от кого-то"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Добро пожаловать в Natrium.Когда вы получите или отправите NANO,это будет отображено ниже."),
+            "Добро пожаловать в Kryptos.Когда вы получите или отправите NANO,это будет отображено ниже."),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Немного"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Много"),
         "exampleCardTo": MessageLookupByLibrary.simpleMessage("кому-то"),
@@ -167,7 +167,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Удаление Seed и выход из системы."),
         "logoutAreYouSure": MessageLookupByLibrary.simpleMessage("Вы уверены?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Выход из системы приведёт к удалению Seed и всех связанных с Natrium данных с этого устройства.Если ваш Seed не будет скопирован,вы больше никогда не сможете получить доступ к своим средствам."),
+            "Выход из системы приведёт к удалению Seed и всех связанных с Kryptos данных с этого устройства.Если ваш Seed не будет скопирован,вы больше никогда не сможете получить доступ к своим средствам."),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Если вы создали резервную копию своего Seed,вам не о чем беспокоиться"),
         "manage": MessageLookupByLibrary.simpleMessage("Управление"),
@@ -195,7 +195,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Нет контактов для импорта"),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Нет, пропустить"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Откройте Natrium для просмотра."),
+            "Откройте Kryptos для просмотра."),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Нажмите чтобы открыть"),
         "notificationTitle":
@@ -208,10 +208,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Пароль не может быть пустым"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Вам больше не понадобится пароль, чтобы открыть Natrium."),
+                "Вам больше не понадобится пароль, чтобы открыть Kryptos."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Этот пароль потребуется для открытия Natrium."),
+                "Этот пароль потребуется для открытия Kryptos."),
         "passwordsDontMatch":
             MessageLookupByLibrary.simpleMessage("Пароли не совпадают"),
         "pending": MessageLookupByLibrary.simpleMessage("в ожидании"),
@@ -261,7 +261,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "representatives":
             MessageLookupByLibrary.simpleMessage("Представители"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Требуется пароль для открытия Natrium?"),
+            "Требуется пароль для открытия Kryptos?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Похоже, ваше устройство \"рутировано\" , \"взломано\" или модифицировано таким образом, что это ставит под угрозу безопасность. Перед продолжением рекомендуется переустановить устройство в исходное состояние."),
         "scanInstructions":
@@ -309,9 +309,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsTransfer":
             MessageLookupByLibrary.simpleMessage("Загрузить с Paper кошелька"),
         "shareNatrium":
-            MessageLookupByLibrary.simpleMessage("Поделиться Natrium"),
+            MessageLookupByLibrary.simpleMessage("Поделиться Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Оцените Natrium! Лучший Android кошелёк Nano!"),
+            "Оцените Kryptos! Лучший Android кошелёк Nano!"),
         "switchToSeed":
             MessageLookupByLibrary.simpleMessage("Переключиться на Seed"),
         "systemDefault": MessageLookupByLibrary.simpleMessage("По умолчанию"),
@@ -328,7 +328,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Нажмите в любом месте, чтобы закрыть окно."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO успешно переведены в Natrium кошелёк.\n"),
+            "%1 NANO успешно переведены в Kryptos кошелёк.\n"),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "Обнаружен кошелёк с балансом %1 NANO.\n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -340,7 +340,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Перевод Средств"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Этот процесс переведёт средства с бумажного кошелька на ваш Natrium кошелёк.\n\nНажмите кнопку \"%1\" чтобы начать."),
+            "Этот процесс переведёт средства с бумажного кошелька на ваш Kryptos кошелёк.\n\nНажмите кнопку \"%1\" чтобы начать."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Перевод"),
         "transferManualHint":
             MessageLookupByLibrary.simpleMessage("Введите Seed ниже."),
@@ -353,16 +353,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("неподтвержденный"),
         "unlock": MessageLookupByLibrary.simpleMessage("Открыть"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Аутентификация для разблокировки Natrium"),
+            "Аутентификация для разблокировки Kryptos"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
-            "Введите PIN , для разблокировки Natrium"),
+            "Введите PIN , для разблокировки Kryptos"),
         "uptime": MessageLookupByLibrary.simpleMessage("Онлайн время"),
         "viewDetails":
             MessageLookupByLibrary.simpleMessage("Посмотреть Детали"),
         "votingWeight": MessageLookupByLibrary.simpleMessage("Вес голосования"),
         "warning": MessageLookupByLibrary.simpleMessage("Предупреждение"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Добро пожаловать в Natrium. Вы можете создать новый кошелек или импортировать уже существующий."),
+            "Добро пожаловать в Kryptos. Вы можете создать новый кошелек или импортировать уже существующий."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Через %1 мин."),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Через %1 мин."),
         "yes": MessageLookupByLibrary.simpleMessage("Да"),

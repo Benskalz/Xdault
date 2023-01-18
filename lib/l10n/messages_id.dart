@@ -195,7 +195,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Tidak menemukan untuk impor"),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Tidak, lewati"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Buka Natrium untuk melihat transaksi."),
+            "Buka Kryptos untuk melihat transaksi."),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Tekan untuk membuka"),
         "notificationTitle":
@@ -208,10 +208,10 @@ class MessageLookup extends MessageLookupByLibrary {
             "Kata sandi tidak boleh kosong"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Anda tidak akan memerlukan kata sandi lagi untuk membuka Natrium."),
+                "Anda tidak akan memerlukan kata sandi lagi untuk membuka Kryptos."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Kata sandi digunakan untuk membuka Natrium."),
+                "Kata sandi digunakan untuk membuka Kryptos."),
         "passwordsDontMatch":
             MessageLookupByLibrary.simpleMessage("Kata sandi tidak cocok"),
         "pending": MessageLookupByLibrary.simpleMessage("tertunda"),
@@ -260,7 +260,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "representatives":
             MessageLookupByLibrary.simpleMessage("Representatif"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Membutuhkan kata sandi untuk membuka Natrium?"),
+            "Membutuhkan kata sandi untuk membuka Kryptos?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Tampaknya perangkat Anda \"di-root\", \"jailbroken\", atau dimodifikasi dengan cara yang membahayakan keamanan. Anda disarankan untuk mereset perangkat Anda ke keadaan semula sebelum melanjutkan."),
         "scanInstructions": MessageLookupByLibrary.simpleMessage(
@@ -306,9 +306,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsHeader": MessageLookupByLibrary.simpleMessage("Pengaturan"),
         "settingsTransfer":
             MessageLookupByLibrary.simpleMessage("Muat dari Dompet Kertas"),
-        "shareNatrium": MessageLookupByLibrary.simpleMessage("Bagikan Natrium"),
+        "shareNatrium": MessageLookupByLibrary.simpleMessage("Bagikan Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Ayo Cek Natrium! Nano\'s official Android Wallet!"),
+            "Ayo Cek Kryptos! Nano\'s official Android Wallet!"),
         "switchToSeed":
             MessageLookupByLibrary.simpleMessage("Pindah Ke Benih Lain"),
         "systemDefault": MessageLookupByLibrary.simpleMessage("Default Sistem"),
@@ -325,7 +325,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Ketuk di mana saja untuk melanjutkan."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO berhasil ditransfer ke Dompet Natrium Anda."),
+            "%1 NANO berhasil ditransfer ke Dompet Kryptos Anda."),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "Dompet dengan saldo %1 NANO telah terdeteksi.\n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -337,7 +337,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Transfer\nDana"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Proses ini akan mentransfer dana dari dompet kertas ke dompet Natrium Anda.\n\nKetuk \"%1\" tombol untuk memulai."),
+            "Proses ini akan mentransfer dana dari dompet kertas ke dompet Kryptos Anda.\n\nKetuk \"%1\" tombol untuk memulai."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Mentransfer"),
         "transferManualHint": MessageLookupByLibrary.simpleMessage(
             "Mohon masukkan benih dibawah ini."),
@@ -351,7 +351,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("belum dikonfirmasi"),
         "unlock": MessageLookupByLibrary.simpleMessage("Terbuka"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Otentikasi untuk Membuka Natrium"),
+            "Otentikasi untuk Membuka Kryptos"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
             "Masukkan PIN untuk membuka KALIUM"),
         "uptime": MessageLookupByLibrary.simpleMessage("Uptime"),
@@ -359,7 +359,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "votingWeight": MessageLookupByLibrary.simpleMessage("Bobot HakSuara"),
         "warning": MessageLookupByLibrary.simpleMessage("PERINGATAN"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Selamat datang di Natrium. Untuk melanjutkan, anda bisa membuat dompet baru atau mengimpor dompet lama anda."),
+            "Selamat datang di Kryptos. Untuk melanjutkan, anda bisa membuat dompet baru atau mengimpor dompet lama anda."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Setelah %1 menit"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Setelah %1 menit"),
         "yes": MessageLookupByLibrary.simpleMessage("Ya"),

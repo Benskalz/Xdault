@@ -125,7 +125,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Введіть пароль"),
         "exampleCardFrom": MessageLookupByLibrary.simpleMessage("від когось"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Ласкаво прошу до Natrium. Як тільки ви отримаєте NANO, трансакції буде показано отак:"),
+            "Ласкаво прошу до Kryptos. Як тільки ви отримаєте NANO, трансакції буде показано отак:"),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Трохи"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Багато"),
         "exampleCardTo": MessageLookupByLibrary.simpleMessage("комусь"),
@@ -170,7 +170,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Ви впевнені?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Якщо ви вийдете то ваш seed і всі Natrium дані буде видалено з вашого пристрою . Якщо ви не зробили резервну копію seed ви НІКОЛИ не відновите гаманці"),
+            "Якщо ви вийдете то ваш seed і всі Kryptos дані буде видалено з вашого пристрою . Якщо ви не зробили резервну копію seed ви НІКОЛИ не відновите гаманці"),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Якщо ви зробили резервну копію вашої мнемонічної фрази вам не варто хвилюватися."),
         "manage": MessageLookupByLibrary.simpleMessage("Керувати"),
@@ -198,7 +198,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Немає нових контактів для імпорту"),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Ні, пропустити"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Відкрити Natrium щоб переглянути трансакції"),
+            "Відкрити Kryptos щоб переглянути трансакції"),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Торкніться щоб відкрити"),
         "notificationTitle":
@@ -212,10 +212,10 @@ class MessageLookup extends MessageLookupByLibrary {
             "Пароль не може бути порожнім"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Вам більше не треба буде пароль щоб відкрити Natrium."),
+                "Вам більше не треба буде пароль щоб відкрити Kryptos."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Цей пароль буде необхідним щоб відкрити Natrium."),
+                "Цей пароль буде необхідним щоб відкрити Kryptos."),
         "passwordsDontMatch":
             MessageLookupByLibrary.simpleMessage("Паролі не співпали"),
         "pending": MessageLookupByLibrary.simpleMessage("в процесі"),
@@ -265,7 +265,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Що таке представник?"),
         "representatives": MessageLookupByLibrary.simpleMessage("Представники"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Чи треба пароль щоб відкрити Natrium?"),
+            "Чи треба пароль щоб відкрити Kryptos?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Схоже що ваш прилад \"rooted\", \"jailbroken\", чи модифікований настільки, що це небезпечно. Рекомендовано повернути фабричні установки вашому приладу перед продовженням."),
         "scanInstructions": MessageLookupByLibrary.simpleMessage(
@@ -313,9 +313,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsTransfer": MessageLookupByLibrary.simpleMessage(
             "Завантажити з паперового гаманця"),
         "shareNatrium":
-            MessageLookupByLibrary.simpleMessage("Поділитися Natrium"),
+            MessageLookupByLibrary.simpleMessage("Поділитися Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Спробуйте Natrium!  Найкращий мобільний гаманець для NANO!"),
+            "Спробуйте Kryptos!  Найкращий мобільний гаманець для NANO!"),
         "switchToSeed":
             MessageLookupByLibrary.simpleMessage("Перемкнутися на seed"),
         "systemDefault": MessageLookupByLibrary.simpleMessage(
@@ -333,7 +333,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Торкніться щоб закрити вікно."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO успішно переказано до вашого гаманця Natrium. \n"),
+            "%1 NANO успішно переказано до вашого гаманця Kryptos. \n"),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "Знайдено гаманець з балансом %1 NANO . \n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -345,7 +345,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Переказати кошти"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Цією дією ви перекажете кошти з паперового гаманця у ваш Natrium гаманець. \n\n Натисніть \"%1\" конпку щоб почати."),
+            "Цією дією ви перекажете кошти з паперового гаманця у ваш Kryptos гаманець. \n\n Натисніть \"%1\" конпку щоб почати."),
         "transferLoading":
             MessageLookupByLibrary.simpleMessage("Переказується"),
         "transferManualHint": MessageLookupByLibrary.simpleMessage(
@@ -359,16 +359,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("непідтверджено"),
         "unlock": MessageLookupByLibrary.simpleMessage("Розблокувати"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Введіть пароль для входу в Natrium"),
+            "Введіть пароль для входу в Kryptos"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
-            "Введіть пін код для входу в Natrium"),
+            "Введіть пін код для входу в Kryptos"),
         "uptime": MessageLookupByLibrary.simpleMessage("Час в мережі"),
         "viewDetails":
             MessageLookupByLibrary.simpleMessage("Переглянути деталі"),
         "votingWeight": MessageLookupByLibrary.simpleMessage("Сила голосу"),
         "warning": MessageLookupByLibrary.simpleMessage("Попередження"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Ласкаво просимо до Natrium. Щоб продовжити ви можете створити новий гаманець або імпортувати існуючий."),
+            "Ласкаво просимо до Kryptos. Щоб продовжити ви можете створити новий гаманець або імпортувати існуючий."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Після %1 хвилини"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Після %1 хвилин"),
         "yes": MessageLookupByLibrary.simpleMessage("Так"),

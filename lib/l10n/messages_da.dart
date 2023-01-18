@@ -123,7 +123,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "exampleCardFrom":
             MessageLookupByLibrary.simpleMessage("fra en tilfældig"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Velkommen til Natrium. Når du modtager NANO vises transaktioner sådan:"),
+            "Velkommen til Kryptos. Når du modtager NANO vises transaktioner sådan:"),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Nogle"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Mange"),
         "exampleCardTo":
@@ -170,7 +170,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Er du sikker?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Når du logger ud, fjernes dit Seed og alle data relateret til Natrium fra denne enhed. Hvis dit Seed ikke er sikkerhedskopieret, vil du aldrig kunne få adgang til dine midler igen."),
+            "Når du logger ud, fjernes dit Seed og alle data relateret til Kryptos fra denne enhed. Hvis dit Seed ikke er sikkerhedskopieret, vil du aldrig kunne få adgang til dine midler igen."),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Så længe du har sikkerhedskopieret dit Seed, har du intet at bekymre dig om."),
         "manage": MessageLookupByLibrary.simpleMessage("Administrer"),
@@ -200,7 +200,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noSkipButton":
             MessageLookupByLibrary.simpleMessage("Nej, spring over"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Åbn Natrium for at se denne transaktion"),
+            "Åbn Kryptos for at se denne transaktion"),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Tryk for at åbne"),
         "notificationTitle":
@@ -213,10 +213,10 @@ class MessageLookup extends MessageLookupByLibrary {
             "Adgangskoden kan ikke være tom"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Du har ikke længere brug for en adgangskode for at åbne Natrium."),
+                "Du har ikke længere brug for en adgangskode for at åbne Kryptos."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Denne adgangskode vil blive påkrævet for at åbne Natrium."),
+                "Denne adgangskode vil blive påkrævet for at åbne Kryptos."),
         "passwordsDontMatch":
             MessageLookupByLibrary.simpleMessage("Adgangskoderne stemmer ikke"),
         "pending": MessageLookupByLibrary.simpleMessage("afventer"),
@@ -266,7 +266,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "representatives":
             MessageLookupByLibrary.simpleMessage("Repræsentanter"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Kræv en adgangskode for at åbne Natrium?"),
+            "Kræv en adgangskode for at åbne Kryptos?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Din enhed er tilsyneladende \"rooted\", \"jailbroken\" eller ændret på en måde, der kompromitterer din sikkerhed. Det anbefales, at du nulstiller enheden til dens oprindelige tilstand, inden du fortsætter."),
         "scanInstructions": MessageLookupByLibrary.simpleMessage(
@@ -315,7 +315,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Hent fra Papir tegnebog"),
         "shareNatrium": MessageLookupByLibrary.simpleMessage("Del Natirum"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Tjek Natrium! En førende NANO mobil tegnebog!"),
+            "Tjek Kryptos! En førende NANO mobil tegnebog!"),
         "switchToSeed": MessageLookupByLibrary.simpleMessage("Skift til Seed"),
         "systemDefault": MessageLookupByLibrary.simpleMessage("Systemstandard"),
         "tapToHide": MessageLookupByLibrary.simpleMessage("Tryk for at skjule"),
@@ -341,7 +341,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Overfør midler"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Denne proces overfører midler fra en Papir tegnebog til din Natrium tegnebog.\n\nTryk på \"%1\" knappen for at begynde."),
+            "Denne proces overfører midler fra en Papir tegnebog til din Kryptos tegnebog.\n\nTryk på \"%1\" knappen for at begynde."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Overfører"),
         "transferManualHint":
             MessageLookupByLibrary.simpleMessage("Indtast Seed nedenfor."),
@@ -354,7 +354,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("ubekræftet"),
         "unlock": MessageLookupByLibrary.simpleMessage("Lås op"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Verificer for at låse Natrium op"),
+            "Verificer for at låse Kryptos op"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
             "Indtast PIN-koden for at låse Natirum op"),
         "uptime": MessageLookupByLibrary.simpleMessage("Online tid"),
@@ -362,7 +362,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "votingWeight": MessageLookupByLibrary.simpleMessage("Stemmevægt"),
         "warning": MessageLookupByLibrary.simpleMessage("Advarsel"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Velkommen til Natrium. For at fortsætte kan du oprette en ny tegnebog eller importere en eksisterende."),
+            "Velkommen til Kryptos. For at fortsætte kan du oprette en ny tegnebog eller importere en eksisterende."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Efter %1 minut"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Efter %1 minutter"),
         "yes": MessageLookupByLibrary.simpleMessage("Ja"),

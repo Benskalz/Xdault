@@ -90,7 +90,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterAmount": MessageLookupByLibrary.simpleMessage("Enter Amount"),
         "exampleCardFrom": MessageLookupByLibrary.simpleMessage("from someone"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "welcome to Dault. Once you receive NANO, transactions will show up like this:"),
+            "welcome to Kryptos. Once you receive NANO, transactions will show up like this:"),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("A little"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("A lot of"),
         "exampleCardTo": MessageLookupByLibrary.simpleMessage("to someone"),
@@ -115,7 +115,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Insufficient Balance"),
         "invalidAddress":
             MessageLookupByLibrary.simpleMessage("Address entered was invalid"),
-        "kaliumWallet": MessageLookupByLibrary.simpleMessage("Natrium Wallet"),
+        "kaliumWallet": MessageLookupByLibrary.simpleMessage("Kryptos Wallet"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "lockAppSetting":
             MessageLookupByLibrary.simpleMessage("Authenticate on Launch"),
@@ -126,7 +126,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Are you sure?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Logging out will remove your seed and all Natrium-related data from this device. If your seed is not backed up, you will never be able to access your funds again"),
+            "Logging out will remove your seed and all Kryptos-related data from this device. If your seed is not backed up, you will never be able to access your funds again"),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "As long as you\'ve backed up your seed you have nothing to worry about."),
         "manage": MessageLookupByLibrary.simpleMessage("Manage"),
@@ -146,7 +146,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noContactsImport":
             MessageLookupByLibrary.simpleMessage("No new contacts to import."),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Open Natrium to view this transaction"),
+            "Open Kryptos to view this transaction"),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Tap to open"),
         "notificationTitle":
@@ -225,9 +225,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsHeader": MessageLookupByLibrary.simpleMessage("Settings"),
         "settingsTransfer":
             MessageLookupByLibrary.simpleMessage("Load from Paper Wallet"),
-        "shareNatrium": MessageLookupByLibrary.simpleMessage("Share Natrium"),
+        "shareNatrium": MessageLookupByLibrary.simpleMessage("Share Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Check out Natrium! A premier NANO mobile wallet!"),
+            "Check out Kryptos! A premier NANO mobile wallet!"),
         "switchToSeed": MessageLookupByLibrary.simpleMessage("Switch to Seed"),
         "systemDefault": MessageLookupByLibrary.simpleMessage("System Default"),
         "tapToHide": MessageLookupByLibrary.simpleMessage("Tap to hide"),
@@ -241,7 +241,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Tap anywhere to close the window."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO successfully transferred to your Natrium Wallet.\n"),
+            "%1 NANO successfully transferred to your Kryptos Wallet.\n"),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "A wallet with a balance of %1 NANO has been detected.\n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -253,7 +253,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Transfer Funds"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "This process will transfer the funds from a paper wallet to your Natrium wallet.\n\nTap the \"%1\" button to start."),
+            "This process will transfer the funds from a paper wallet to your Kryptos wallet.\n\nTap the \"%1\" button to start."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Transferring"),
         "transferManualHint": MessageLookupByLibrary.simpleMessage(
             "Please enter the seed below."),
@@ -265,13 +265,13 @@ class MessageLookup extends MessageLookupByLibrary {
             "Scan a Nano \nseed or private key"),
         "unlock": MessageLookupByLibrary.simpleMessage("Unlock"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Authenticate to Unlock Natrium"),
+            "Authenticate to Unlock Kryptos"),
         "unlockPin":
-            MessageLookupByLibrary.simpleMessage("Enter PIN to Unlock Natrium"),
+            MessageLookupByLibrary.simpleMessage("Enter PIN to Unlock Kryptos"),
         "viewDetails": MessageLookupByLibrary.simpleMessage("View Details"),
         "warning": MessageLookupByLibrary.simpleMessage("Warning"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "welcome to Dault. To begin, you may create a new wallet or import an existing one."),
+            "welcome to Kryptos. To begin, you may create a new wallet or import an existing one."),
         "xMinute": MessageLookupByLibrary.simpleMessage("After %1 minute"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("After %1 minutes"),
         "yes": MessageLookupByLibrary.simpleMessage("Yes")

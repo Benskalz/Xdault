@@ -122,7 +122,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "exampleCardFrom":
             MessageLookupByLibrary.simpleMessage("Fra en tilfeldig"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Velkommen til Natrium. Når du mottar NANO, vil transaksjonene vises slik:"),
+            "Velkommen til Kryptos. Når du mottar NANO, vil transaksjonene vises slik:"),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Litt"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Mange"),
         "exampleCardTo":
@@ -169,7 +169,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Er du sikker?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Når du logger ut fjernes ditt Seed og all Natrium-relatert data fra denne enheten. Om ditt Seed ikke er sikkerhetskopiert, vil du aldri kunne få tilgang til dine midler igjen"),
+            "Når du logger ut fjernes ditt Seed og all Kryptos-relatert data fra denne enheten. Om ditt Seed ikke er sikkerhetskopiert, vil du aldri kunne få tilgang til dine midler igjen"),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Så lenge du har sikkerhetskopiert ditt Seed, har du ingenting å bekymre deg over."),
         "manage": MessageLookupByLibrary.simpleMessage("Administrer"),
@@ -198,7 +198,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Ingen nye kontakter å importere."),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Nei, hopp over"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Åpne Natrium for å vise denne transaksjonen"),
+            "Åpne Kryptos for å vise denne transaksjonen"),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Tap for å åpne"),
         "notificationTitle":
@@ -211,10 +211,10 @@ class MessageLookup extends MessageLookupByLibrary {
             "Passordet kan ikke være tomt"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Du trenger ikke lenger et passord for å åpne Natrium."),
+                "Du trenger ikke lenger et passord for å åpne Kryptos."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Dette passordet vil være påkrevd for å åpne Natrium."),
+                "Dette passordet vil være påkrevd for å åpne Kryptos."),
         "passwordsDontMatch": MessageLookupByLibrary.simpleMessage(
             "Passordene stemmer ikke overens"),
         "pending": MessageLookupByLibrary.simpleMessage("venter"),
@@ -264,7 +264,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "representatives":
             MessageLookupByLibrary.simpleMessage("Representanter"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Krev et passord for å åpne Natrium?"),
+            "Krev et passord for å åpne Kryptos?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Din enhet er tilsynelatende \"rooted\", \"jailbroken\", eller endret på en måte som kompromitterer din sikkerhet. Det er anbefalt at du nullstiller enheten til opprinnelig tilstand, før du fortsetter."),
         "scanInstructions": MessageLookupByLibrary.simpleMessage(
@@ -309,9 +309,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsHeader": MessageLookupByLibrary.simpleMessage("Instillinger"),
         "settingsTransfer":
             MessageLookupByLibrary.simpleMessage("Last fra papirlommebok"),
-        "shareNatrium": MessageLookupByLibrary.simpleMessage("Del Natrium"),
+        "shareNatrium": MessageLookupByLibrary.simpleMessage("Del Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Sjekk ut Natrium! En ledende NANO mobil lommebok!"),
+            "Sjekk ut Kryptos! En ledende NANO mobil lommebok!"),
         "switchToSeed": MessageLookupByLibrary.simpleMessage("Bytt til Seed"),
         "systemDefault": MessageLookupByLibrary.simpleMessage("Systemstandard"),
         "tapToHide": MessageLookupByLibrary.simpleMessage("Trykk for å skjule"),
@@ -325,7 +325,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Trykk hvor som helst for å lukke vinduet."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO ble overført til din Natrium lommebok.\n"),
+            "%1 NANO ble overført til din Kryptos lommebok.\n"),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "En lommebok med en saldo på %1 NANO ble funnet.\n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -337,7 +337,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Overfør midler"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Denne prosessen vil overføre midler fra en papirlommebok til din Natrium lommebok.\n\nTrykk på \"%1\" knappen for å starte."),
+            "Denne prosessen vil overføre midler fra en papirlommebok til din Kryptos lommebok.\n\nTrykk på \"%1\" knappen for å starte."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Overfører"),
         "transferManualHint":
             MessageLookupByLibrary.simpleMessage("Tast inn Seed nedenfor."),
@@ -350,15 +350,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("ubekreftet"),
         "unlock": MessageLookupByLibrary.simpleMessage("Lås opp"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Verifiser for å låse opp Natrium"),
+            "Verifiser for å låse opp Kryptos"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
-            "Angi PIN-kode for å låse opp Natrium"),
+            "Angi PIN-kode for å låse opp Kryptos"),
         "uptime": MessageLookupByLibrary.simpleMessage("Tid online"),
         "viewDetails": MessageLookupByLibrary.simpleMessage("Vis detaljer"),
         "votingWeight": MessageLookupByLibrary.simpleMessage("Stemmevekt"),
         "warning": MessageLookupByLibrary.simpleMessage("Advarsel"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Velkommen til Natrium. For å starte, kan du opprette en ny lommebok eller importere en eksisterende."),
+            "Velkommen til Kryptos. For å starte, kan du opprette en ny lommebok eller importere en eksisterende."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Etter %1 minutt"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Etter %1 minutter"),
         "yes": MessageLookupByLibrary.simpleMessage("Ja"),

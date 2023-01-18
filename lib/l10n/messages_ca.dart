@@ -124,7 +124,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Introdueix la teva contrasenya"),
         "exampleCardFrom": MessageLookupByLibrary.simpleMessage("d\'algú"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Benvingut a Natrium. Un cop hagis rebut NANO, les transaccions apareixeran així:"),
+            "Benvingut a Kryptos. Un cop hagis rebut NANO, les transaccions apareixeran així:"),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Uns pocs"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Molts"),
         "exampleCardTo": MessageLookupByLibrary.simpleMessage("a algú"),
@@ -169,7 +169,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("N\'estàs segur?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Tancar la sessió eliminarà la llavor i totes les dades relacionades amb Natrium emmagatzemades en aquest dispositiu. Si no disposes d\'una còpia de seguretat de la teva llavor, no podràs recuperar l\'accés als teus fons"),
+            "Tancar la sessió eliminarà la llavor i totes les dades relacionades amb Kryptos emmagatzemades en aquest dispositiu. Si no disposes d\'una còpia de seguretat de la teva llavor, no podràs recuperar l\'accés als teus fons"),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Sempre que hagis fet una còpia de seguretat de la teva llavor no t\'has de preocupar per res."),
         "manage": MessageLookupByLibrary.simpleMessage("Administrar"),
@@ -198,7 +198,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "No hi ha nous contactes per importar."),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("No, ometre"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Obre Natrium per veure aquesta transacció"),
+            "Obre Kryptos per veure aquesta transacció"),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Prémer per obrir"),
         "notificationTitle":
@@ -211,10 +211,10 @@ class MessageLookup extends MessageLookupByLibrary {
             "La contrasenya no pot estar buida"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Ja no requeriràs una contrasenya per obrir Natrium."),
+                "Ja no requeriràs una contrasenya per obrir Kryptos."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Es requerirà aquesta contrasenya per obrir Natrium."),
+                "Es requerirà aquesta contrasenya per obrir Kryptos."),
         "passwordsDontMatch": MessageLookupByLibrary.simpleMessage(
             "Les contrasenyes no coincideixen"),
         "pending": MessageLookupByLibrary.simpleMessage("pendent"),
@@ -265,7 +265,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "representatives":
             MessageLookupByLibrary.simpleMessage("Representants"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Vols requerir una contrasenya per obrir Natrium?"),
+            "Vols requerir una contrasenya per obrir Kryptos?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Sembla que el teu dispositiu té accés \"root\", \"jailbreak\", o està modificat de forma que en compromet la seguretat. És recomanable que es retorni el dispositiu a l\'estat original abans de continuar."),
         "scanInstructions": MessageLookupByLibrary.simpleMessage(
@@ -312,9 +312,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsTransfer": MessageLookupByLibrary.simpleMessage(
             "Carregar des d\'un moneder de paper"),
         "shareNatrium":
-            MessageLookupByLibrary.simpleMessage("Compartir Natrium"),
+            MessageLookupByLibrary.simpleMessage("Compartir Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Fes una ullada a Natrium! Un moneder mòbil NANO de primera!"),
+            "Fes una ullada a Kryptos! Un moneder mòbil NANO de primera!"),
         "switchToSeed":
             MessageLookupByLibrary.simpleMessage("Canviar a la llavor"),
         "systemDefault":
@@ -330,7 +330,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Prem a qualsevol lloc per tancar la finestra."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 NANO han estat transferits amb èxit al teu moneder Natrium.\n"),
+            "%1 NANO han estat transferits amb èxit al teu moneder Kryptos.\n"),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "S\'ha detectat un moneder amb un saldo de %1 NANO.\n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -342,7 +342,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Transferir fons"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Aquest procés transferirà els fons des d\'un moneder de paper al teu moneder Natrium.\n\nPrem el botó \"%1\" per començar."),
+            "Aquest procés transferirà els fons des d\'un moneder de paper al teu moneder Kryptos.\n\nPrem el botó \"%1\" per començar."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Transferint"),
         "transferManualHint": MessageLookupByLibrary.simpleMessage(
             "Si us plau, introdueix la llavor a sota."),
@@ -355,15 +355,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("sense confirmar"),
         "unlock": MessageLookupByLibrary.simpleMessage("Desbloquejar"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Autentica\'t per desbloquejar Natrium"),
+            "Autentica\'t per desbloquejar Kryptos"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
-            "Introdueix el PIN per desbloquejar Natrium"),
+            "Introdueix el PIN per desbloquejar Kryptos"),
         "uptime": MessageLookupByLibrary.simpleMessage("Disponibilitat"),
         "viewDetails": MessageLookupByLibrary.simpleMessage("Veure detalls"),
         "votingWeight": MessageLookupByLibrary.simpleMessage("Pes de vot"),
         "warning": MessageLookupByLibrary.simpleMessage("Advertència"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Benvingut a Natrium. Per començar, pots crear un nou moneder o importar-ne un d\'existent."),
+            "Benvingut a Kryptos. Per començar, pots crear un nou moneder o importar-ne un d\'existent."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Després d\'%1 minut"),
         "xMinutes":
             MessageLookupByLibrary.simpleMessage("Després de %1 minuts"),

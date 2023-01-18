@@ -121,7 +121,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Voer je wachtwoord in"),
         "exampleCardFrom": MessageLookupByLibrary.simpleMessage("van iemand"),
         "exampleCardIntro": MessageLookupByLibrary.simpleMessage(
-            "Welkom bij Natrium. Zodra je NANO ontvangt zullen jouw transacties op deze manier verschijnen"),
+            "Welkom bij Kryptos. Zodra je NANO ontvangt zullen jouw transacties op deze manier verschijnen"),
         "exampleCardLittle": MessageLookupByLibrary.simpleMessage("Een paar"),
         "exampleCardLot": MessageLookupByLibrary.simpleMessage("Heel veel"),
         "exampleCardTo": MessageLookupByLibrary.simpleMessage("naar iemand"),
@@ -167,7 +167,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutAreYouSure":
             MessageLookupByLibrary.simpleMessage("Weet je het zeker?"),
         "logoutDetail": MessageLookupByLibrary.simpleMessage(
-            "Uitloggen zorgt ervoor dat jouw seed en alle Natrium-gerelateerde informatie van dit toestel worden verwijderd. Als je geen back-up hebt gemaakt, kan je niet meer bij de inhoud van jouw wallet."),
+            "Uitloggen zorgt ervoor dat jouw seed en alle Kryptos-gerelateerde informatie van dit toestel worden verwijderd. Als je geen back-up hebt gemaakt, kan je niet meer bij de inhoud van jouw wallet."),
         "logoutReassurance": MessageLookupByLibrary.simpleMessage(
             "Als je een back-up hebt gemaakt van jouw seed, is er niks aan de hand."),
         "manage": MessageLookupByLibrary.simpleMessage("Beheren"),
@@ -195,7 +195,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Geen contacten gevonden om te importeren"),
         "noSkipButton": MessageLookupByLibrary.simpleMessage("Nee, overslaan"),
         "notificationBody": MessageLookupByLibrary.simpleMessage(
-            "Open Natrium om de transactie te zien."),
+            "Open Kryptos om de transactie te zien."),
         "notificationHeaderSupplement":
             MessageLookupByLibrary.simpleMessage("Tik om te openen"),
         "notificationTitle":
@@ -208,10 +208,10 @@ class MessageLookup extends MessageLookupByLibrary {
             "Wachtwoord mag niet leeg zijn"),
         "passwordNoLongerRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Je hebt geen wachtwoord meer nodig om Natrium te openen."),
+                "Je hebt geen wachtwoord meer nodig om Kryptos te openen."),
         "passwordWillBeRequiredToOpenParagraph":
             MessageLookupByLibrary.simpleMessage(
-                "Dit wachtwoord is vereist om Natrium te openen."),
+                "Dit wachtwoord is vereist om Kryptos te openen."),
         "passwordsDontMatch": MessageLookupByLibrary.simpleMessage(
             "Wachtwoorden kom niet overeen"),
         "pending": MessageLookupByLibrary.simpleMessage("in afwachting"),
@@ -260,7 +260,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "representatives":
             MessageLookupByLibrary.simpleMessage("Vertegenwoordigers"),
         "requireAPasswordToOpenHeader": MessageLookupByLibrary.simpleMessage(
-            "Wachtwoord vereisen om Natrium te openen?"),
+            "Wachtwoord vereisen om Kryptos te openen?"),
         "rootWarning": MessageLookupByLibrary.simpleMessage(
             "Het lijkt erop dat jouw apparaat is \"geroot\", \"gejailbreakt\" of is aangepast op een manier die de beveiliging in gevaar brengt. Het wordt aanbevolen dat je jouw apparaat in de oorspronkelijke staat reset voordat je doorgaat."),
         "scanInstructions": MessageLookupByLibrary.simpleMessage(
@@ -306,9 +306,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "settingsHeader": MessageLookupByLibrary.simpleMessage("Instellingen"),
         "settingsTransfer": MessageLookupByLibrary.simpleMessage(
             "Van papieren wallet importeren"),
-        "shareNatrium": MessageLookupByLibrary.simpleMessage("Deel Natrium"),
+        "shareNatrium": MessageLookupByLibrary.simpleMessage("Deel Kryptos"),
         "shareNatriumText": MessageLookupByLibrary.simpleMessage(
-            "Probeer Natrium! Een premium mobiele Nano wallet!"),
+            "Probeer Kryptos! Een premium mobiele Nano wallet!"),
         "switchToSeed":
             MessageLookupByLibrary.simpleMessage("Schakel over naar seed"),
         "systemDefault":
@@ -326,7 +326,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferClose": MessageLookupByLibrary.simpleMessage(
             "Tik ergens om het venster te sluiten."),
         "transferComplete": MessageLookupByLibrary.simpleMessage(
-            "%1 Nano succesvol overgezet naar jouw Natrium wallet."),
+            "%1 Nano succesvol overgezet naar jouw Kryptos wallet."),
         "transferConfirmInfo": MessageLookupByLibrary.simpleMessage(
             "Een wallet met een saldo van %1 Nano is gedetecteerd.\n"),
         "transferConfirmInfoSecond": MessageLookupByLibrary.simpleMessage(
@@ -338,7 +338,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "transferHeader":
             MessageLookupByLibrary.simpleMessage("Saldo overzetten"),
         "transferIntro": MessageLookupByLibrary.simpleMessage(
-            "Met dit proces wordt het saldo van een papieren wallet overgezet naar jouw Natrium-wallet.\n\nTik op de \"%1\" knop om te starten."),
+            "Met dit proces wordt het saldo van een papieren wallet overgezet naar jouw Kryptos-wallet.\n\nTik op de \"%1\" knop om te starten."),
         "transferLoading": MessageLookupByLibrary.simpleMessage("Overzetten"),
         "transferManualHint": MessageLookupByLibrary.simpleMessage(
             "A.u.b. hieronder de seed invoeren."),
@@ -351,15 +351,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "unconfirmed": MessageLookupByLibrary.simpleMessage("onbevestigd"),
         "unlock": MessageLookupByLibrary.simpleMessage("Ontgrendelen"),
         "unlockBiometrics": MessageLookupByLibrary.simpleMessage(
-            "Verifiëren om Natrium te ontgrendelen"),
+            "Verifiëren om Kryptos te ontgrendelen"),
         "unlockPin": MessageLookupByLibrary.simpleMessage(
-            "PIN invoeren om Natrium te ontgrendelen"),
+            "PIN invoeren om Kryptos te ontgrendelen"),
         "uptime": MessageLookupByLibrary.simpleMessage("Tijd online"),
         "viewDetails": MessageLookupByLibrary.simpleMessage("Bekijk details"),
         "votingWeight": MessageLookupByLibrary.simpleMessage("Stemgewicht"),
         "warning": MessageLookupByLibrary.simpleMessage("WAARSCHUWING"),
         "welcomeText": MessageLookupByLibrary.simpleMessage(
-            "Welkom bij Natrium. Creëer een nieuwe wallet of importeer een bestaande wallet om verder te gaan."),
+            "Welkom bij Kryptos. Creëer een nieuwe wallet of importeer een bestaande wallet om verder te gaan."),
         "xMinute": MessageLookupByLibrary.simpleMessage("Na %1 minuten"),
         "xMinutes": MessageLookupByLibrary.simpleMessage("Na %1 minuut"),
         "yes": MessageLookupByLibrary.simpleMessage("Ja"),
